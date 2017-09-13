@@ -6,8 +6,8 @@ Pod::Spec.new do |s|
                      The GH Client VOIP Interface to develop VOIP applications.This is based on SIP and webrtc Protocol\n
                     DESC
     s.homepage     = "https://github.com/grasshoppergroup/gh-client-lib"
-    s.license      = { :type => 'Private', :text => 'All rights reserved to Citrix'}
-    s.author       = { "Jijo Jose" => "http://www.grasshopper.com" }
+    s.license      = { :type => 'Private', :text => 'All rights reserved to LogMeIn'}
+    s.author       = { "Jijo Jose" => "jijo.jose@logmein.com" }
     s.source       = { :git => 'https://github.com/grasshoppergroup/gh-client-lib.git', :tag => s.version.to_s}
     s.platform = :ios
     s.ios.deployment_target = '7.0'
