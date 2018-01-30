@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
     s.exclude_files = 'ios/**/*.txt'
     s.preserve_paths = 'ios/build/out/ghclient-ios-debug/*.*'
     s.vendored_libraries = 'ios/build/out/ghclient-ios-debug/libghClient.a'
-    s.dependency 'libjingle_peerconnection', '~>11177.2.0'
+    s.dependency 'GoogleWebRTC', '1.1.20913'
     s.dependency 'JSONModel'
 end

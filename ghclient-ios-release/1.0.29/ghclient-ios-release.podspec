@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = 'ghclient-ios-release'
-    s.version      = '#VERSION#'
+    s.version      = '1.0.29'
     s.summary      = 'VOIP Client APIs'
     s.description  = <<-DESC
                      The GH Client VOIP Interface to develop VOIP applications.This is based on SIP and webrtc Protocol\n
