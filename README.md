@@ -1,6 +1,6 @@
 ## Description
 
-Spec files to install ghclient sdk for the Application using pod install
+Spec files to install ghclient sdk for the ios Application using pod install
 
 ## Usage
 The Podfile must now contain the source at the top of the file.  
