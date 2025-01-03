@@ -17,6 +17,5 @@ Pod::Spec.new do |s|
     s.public_header_files = 'ios/framework/ghclient.framework/Headers/*.h'
     s.vendored_frameworks = 'ios/framework/ghclient.framework'
     s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 armv7 x86_64' }
-    s.dependency 'GoogleWebRTC'
     s.dependency 'JSONModel'
 end
