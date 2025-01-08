@@ -7,6 +7,7 @@
     "type": "Multiple"
   },
   "name": "GHWebRTC",
+  "version": "2024.06.6534",
   "summary": "GH WebRTC iOS SDK",
   "platforms": {
     "ios": "12.0"
@@ -14,11 +15,8 @@
   "preserve_paths": [
     "LICENSE.md"
   ],
-  "source": {
-    "http": "https://github.com/grasshoppergroup/gh-webrtc-build-script/releases/download/2024.06.6533/GHWebRTC-2024.06.6533.zip"
-  },
+  "source": { :git => 'https://github.com/grasshoppergroup/gh-webrtc-build-script.git', :tag => version.to_s },
   "ios": {
-    "vendored_frameworks": "WebRTC.xcframework"
-  },
-  "version": "2024.06.6533"
+    "vendored_frameworks": "ios/assets/WebRTC.xcframework"
+  }
 }
