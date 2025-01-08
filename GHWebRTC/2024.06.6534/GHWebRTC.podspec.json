@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
     s.source       = { :git => 'https://github.com/grasshoppergroup/gh-webrtc-build-script.git', :tag => s.version.to_s}
     s.platform = :ios
     s.ios.deployment_target = '13.0'
-    s.requires_arc = true,
+    s.requires_arc = true
     s.vendored_frameworks = "ios/assets/WebRTC.xcframework"
 end
