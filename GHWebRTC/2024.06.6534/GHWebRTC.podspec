@@ -2,6 +2,9 @@ Pod::Spec.new do |s|
     s.name         = 'GHWebRTC'
     s.version      = '2024.06.6534'
     s.summary      = 'GH WebRTC iOS SDK'
+    s.description  = <<-DESC
+                    The GH Client VOIP Interface to develop VOIP applications.This is based on SIP and webrtc Protocol\n
+                        DESC
     s.homepage     = "https://webrtc.org/"
     s.license      = { :type => 'Private', :text => 'All rights reserved to Citrix'}
     s.author       = { "Jijo Jose" => "jijo.jose@logmein.com" }
