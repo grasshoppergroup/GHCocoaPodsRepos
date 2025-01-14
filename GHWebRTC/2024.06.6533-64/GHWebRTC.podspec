@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
                     The binary files in this repository are compiled using Google WebRTC source code M version\n
                         DESC
     s.homepage     = "https://webrtc.org/"
-    s.license      = { :type => 'BSD', :file => 'ios/assets/WebRTC.xcframework/LICENSE' }
+    s.license      = { :type => 'BSD', :text => 'All rights reserved to Webrtc'}
     s.author       = "The WebRTC project authors."
     s.ios.deployment_target = '13.0'
     s.platform     = :ios
