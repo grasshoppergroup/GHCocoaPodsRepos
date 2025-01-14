@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = 'GHWebRTC'
-    s.version      = '2024.06.6533'
+    s.version      = '2024.06.6533-64'
     s.summary      = 'GH WebRTC iOS SDK'
     s.description  = <<-DESC
                     The binary files in this repository are compiled using Google WebRTC source code M version\n
