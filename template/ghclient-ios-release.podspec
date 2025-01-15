@@ -17,5 +17,6 @@ Pod::Spec.new do |s|
     s.exclude_files = 'ios/**/*.txt'
     s.preserve_paths = 'ios/build/out/ghclient-ios-release/*.*'
     s.vendored_libraries = 'ios/build/out/ghclient-ios-release/libghClient.a'
+    s.dependency 'GHWebRTC', '2024.06.6533-64'
     s.dependency 'JSONModel'
 end
